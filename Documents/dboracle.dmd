@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dboracle" id="72AF7934-EC3F-EE31-29D0-FC3AB9A10925" version="3.5">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 10:37:19 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>72AF7934-EC3F-EE31-29D0-FC3AB9A10925</designId>
+</OSDM_Design>

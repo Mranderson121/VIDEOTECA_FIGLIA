@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ATTORE" directorySegmentName="seg_0" id="E1A1E019-B748-80FD-F51B-6F21449D48E5">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7659E857-0C02-D699-D96B-9B127CD14DCB</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATADINASCITA" id="19CD7A2B-32BB-FA0F-E1DF-135F548C8468">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COGNOME" id="50262D38-88CF-43B7-59E4-8A3B23D1CF8A">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="9D12B793-FC67-1BFA-F033-7F5EA02181B5">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="9D3210EC-DFE1-A034-87A4-3F39D255DFAA">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ATTORE_PK" id="C01E742B-40AE-5FCE-4390-BA08DFCB09AF">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<segment>83FC7BBD-0301-9BD9-30BE-AA449E978376</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ATTORE_PK" id="F530C216-D6D9-688C-1FAB-00623DE6ACF5">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:22 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<segment>83FC7BBD-0301-9BD9-30BE-AA449E978376</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+<existingIndex>C01E742B-40AE-5FCE-4390-BA08DFCB09AF</existingIndex>
+<indexSegment>83FC7BBD-0301-9BD9-30BE-AA449E978376</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

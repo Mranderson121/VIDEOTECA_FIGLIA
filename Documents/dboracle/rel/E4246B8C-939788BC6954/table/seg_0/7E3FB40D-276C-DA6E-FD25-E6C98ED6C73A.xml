@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E3FB40D-276C-DA6E-FD25-E6C98ED6C73A" schemaObject="29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF" name="UTENTE">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>UTENTE</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="960DA128-2DEE-6038-85DF-372825DB49C2">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>UTENTE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERNAME" id="CE0A1ED0-C9CE-4461-5907-E276AD409545">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>UTENTE</sourceObjSchema>
+<sourceObjName>USERNAME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="62A32196-6A2A-2384-A17C-3FD5963A7B14">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>UTENTE</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36C39D73-442B-AC81-C085-3A87B9DA873B" name="UTENTE_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>UTENTE_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:22 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="960DA128-2DEE-6038-85DF-372825DB49C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDC428CB-F1A2-F071-187D-08C365BF5A12" schemaObject="29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF" name="UTENTE_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>UTENTE_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="960DA128-2DEE-6038-85DF-372825DB49C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

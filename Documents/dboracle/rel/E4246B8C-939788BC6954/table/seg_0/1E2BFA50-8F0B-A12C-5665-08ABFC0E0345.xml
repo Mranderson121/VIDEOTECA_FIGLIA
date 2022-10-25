@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E2BFA50-8F0B-A12C-5665-08ABFC0E0345" schemaObject="29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF" name="UTENTE_FILM">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>UTENTE_FILM</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UTENTE" id="BC062960-90BE-69CA-28AF-4D1CD860670D">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>UTENTE_FILM</sourceObjSchema>
+<sourceObjName>ID_UTENTE</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FILM" id="FA0B0842-6E8D-885A-4C75-A3952890783C">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>UTENTE_FILM</sourceObjSchema>
+<sourceObjName>ID_FILM</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

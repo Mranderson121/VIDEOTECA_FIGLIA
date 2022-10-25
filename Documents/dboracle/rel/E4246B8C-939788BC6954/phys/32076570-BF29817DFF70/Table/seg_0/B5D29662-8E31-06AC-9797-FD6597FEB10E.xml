@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="REGISTA" directorySegmentName="seg_0" id="B5D29662-8E31-06AC-9797-FD6597FEB10E">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7659E857-0C02-D699-D96B-9B127CD14DCB</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="COGNOME" id="A8D32FEF-B316-FA26-7A78-9D2CFC698F55">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="C3183DDF-EEDA-1E07-E66D-9485690F42C5">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATADINASCITA" id="CB5A1962-180D-68FD-A9C1-F8AAD835564D">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="DC7D23C9-DC32-A185-9E13-8B66B8895C6E">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REGISTA_PK" id="C258A380-C028-0039-3EA2-182034C63AE3">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<segment>83FC7BBD-0301-9BD9-30BE-AA449E978376</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REGISTA_PK" id="185FCE51-22EB-D2B0-2283-1D8A35D91D5D">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:22 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<segment>83FC7BBD-0301-9BD9-30BE-AA449E978376</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+<existingIndex>C258A380-C028-0039-3EA2-182034C63AE3</existingIndex>
+<indexSegment>83FC7BBD-0301-9BD9-30BE-AA449E978376</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1A1E019-B748-80FD-F51B-6F21449D48E5" schemaObject="29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF" name="ATTORE">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ATTORE</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9D3210EC-DFE1-A034-87A4-3F39D255DFAA">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="9D12B793-FC67-1BFA-F033-7F5EA02181B5">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COGNOME" id="50262D38-88CF-43B7-59E4-8A3B23D1CF8A">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>COGNOME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATADINASCITA" id="19CD7A2B-32BB-FA0F-E1DF-135F548C8468">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>DATADINASCITA</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F530C216-D6D9-688C-1FAB-00623DE6ACF5" name="ATTORE_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ATTORE_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:22 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3210EC-DFE1-A034-87A4-3F39D255DFAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C01E742B-40AE-5FCE-4390-BA08DFCB09AF" schemaObject="29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF" name="ATTORE_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ATTORE_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3210EC-DFE1-A034-87A4-3F39D255DFAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

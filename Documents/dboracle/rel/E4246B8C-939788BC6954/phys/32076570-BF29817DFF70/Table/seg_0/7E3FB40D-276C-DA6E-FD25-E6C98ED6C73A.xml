@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="UTENTE" directorySegmentName="seg_0" id="7E3FB40D-276C-DA6E-FD25-E6C98ED6C73A">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7659E857-0C02-D699-D96B-9B127CD14DCB</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PASSWORD" id="62A32196-6A2A-2384-A17C-3FD5963A7B14">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="960DA128-2DEE-6038-85DF-372825DB49C2">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERNAME" id="CE0A1ED0-C9CE-4461-5907-E276AD409545">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UTENTE_PK" id="DDC428CB-F1A2-F071-187D-08C365BF5A12">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<segment>83FC7BBD-0301-9BD9-30BE-AA449E978376</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="UTENTE_PK" id="36C39D73-442B-AC81-C085-3A87B9DA873B">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:22 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<segment>83FC7BBD-0301-9BD9-30BE-AA449E978376</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+<existingIndex>DDC428CB-F1A2-F071-187D-08C365BF5A12</existingIndex>
+<indexSegment>83FC7BBD-0301-9BD9-30BE-AA449E978376</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

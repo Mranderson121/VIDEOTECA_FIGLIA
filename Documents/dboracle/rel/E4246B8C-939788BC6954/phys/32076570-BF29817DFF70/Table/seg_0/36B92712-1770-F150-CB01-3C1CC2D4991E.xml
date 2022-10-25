@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FILM_ATTORE" directorySegmentName="seg_0" id="36B92712-1770-F150-CB01-3C1CC2D4991E">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB746A89-329D-2C86-8D10-D3599F0797A6</segment>
+<tableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_FILM" id="49455EEC-0BA5-9909-4C44-74F31F031E7D">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ATTORE" id="B0B8F806-5D15-FD34-21BB-A7C2C6A67440">
+<createdBy>rober</createdBy>
+<createdTime>2022-10-25 12:59:21 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>
