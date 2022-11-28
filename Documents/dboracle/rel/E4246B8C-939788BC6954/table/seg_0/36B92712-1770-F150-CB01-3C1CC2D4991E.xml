@@ -37,4 +37,26 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<impliedForeignKeys itemClass="oracle.dbtools.crest.model.design.relational.ImpliedForeignKey">
+<impliedForeignKey name="ImpliedForeignKey_1" id="C07531F2-64D0-C47A-87F6-9AD134D62CBE">
+<createdBy>rober</createdBy>
+<createdTime>2022-11-07 08:31:55 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<localColumn>B0B8F806-5D15-FD34-21BB-A7C2C6A67440</localColumn>
+<referredTableID>E1A1E019-B748-80FD-F51B-6F21449D48E5</referredTableID>
+<referredColumnID>9D3210EC-DFE1-A034-87A4-3F39D255DFAA</referredColumnID>
+<referredTableLongName>HR.ATTORE</referredTableLongName>
+<referredColumnName>ID</referredColumnName>
+</impliedForeignKey>
+<impliedForeignKey name="ImpliedForeignKey_2" id="8D4C8604-8ADF-3FC9-13D5-896E77FA8D82">
+<createdBy>rober</createdBy>
+<createdTime>2022-11-07 08:32:30 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<localColumn>49455EEC-0BA5-9909-4C44-74F31F031E7D</localColumn>
+<referredTableID>3F08E05A-7AD1-5255-7C57-DAACF2FB6EFD</referredTableID>
+<referredColumnID>5521CA6B-DB20-D8FB-3389-F7D2B594BB40</referredColumnID>
+<referredTableLongName>HR.FILM</referredTableLongName>
+<referredColumnName>ID</referredColumnName>
+</impliedForeignKey>
+</impliedForeignKeys>
 </Table>

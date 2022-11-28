@@ -97,4 +97,16 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<impliedForeignKeys itemClass="oracle.dbtools.crest.model.design.relational.ImpliedForeignKey">
+<impliedForeignKey name="ImpliedForeignKey_1v2" id="3C4DDF32-44AF-B845-FB5A-E59D3BC7C249">
+<createdBy>rober</createdBy>
+<createdTime>2022-11-07 08:33:39 UTC</createdTime>
+<ownerDesignName>dboracle</ownerDesignName>
+<localColumn>5521CA6B-DB20-D8FB-3389-F7D2B594BB40</localColumn>
+<referredTableID>B5D29662-8E31-06AC-9797-FD6597FEB10E</referredTableID>
+<referredColumnID>C3183DDF-EEDA-1E07-E66D-9485690F42C5</referredColumnID>
+<referredTableLongName>HR.REGISTA</referredTableLongName>
+<referredColumnName>ID</referredColumnName>
+</impliedForeignKey>
+</impliedForeignKeys>
 </Table>

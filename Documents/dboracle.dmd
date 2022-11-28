@@ -5,4 +5,9 @@
 <ownerDesignName>dboracle</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>72AF7934-EC3F-EE31-29D0-FC3AB9A10925</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2036D8A4-EC0F-FB75-FB4A-71EBDB2777AD">
+<designStoragePath>C:\Users\rober\Documents</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

@@ -6,4 +6,6 @@
 <createdTime>2022-10-25 12:59:21 UTC</createdTime>
 <ownerDesignName>dboracle</ownerDesignName>
 <schemaObject>29BB64B3-CB3F-42C5-E4B5-4CE8B32EECEF</schemaObject>
+<defTableSpace>165BBFDF-54E5-2573-A609-5D30F4F77EF2</defTableSpace>
+<privileges>CREATE VIEW, UNLIMITED TABLESPACE, CREATE DATABASE LINK, CREATE SEQUENCE, CREATE SESSION, ALTER SESSION, CREATE SYNONYM</privileges>
 </UserOraclev10g>
