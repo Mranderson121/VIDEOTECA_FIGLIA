@@ -98,6 +98,14 @@ public class Film implements Serializable {
 	public void setRegista(Regista regista) {
 		this.regista = regista;
 	}
+	
+	public List<Regista> getListaRegisti() {
+		return listaRegisti;
+	}
+
+	public void setListaRegisti(List<Regista> listaRegisti) {
+		this.listaRegisti = listaRegisti;
+	}
 
 
 	
