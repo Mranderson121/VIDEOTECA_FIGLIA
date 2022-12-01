@@ -79,4 +79,5 @@ public class Regista implements Serializable {
 	public void setListaFilm(List<Film> listaFilm) {
 		this.listaFilm = listaFilm;
 	}
+
 }

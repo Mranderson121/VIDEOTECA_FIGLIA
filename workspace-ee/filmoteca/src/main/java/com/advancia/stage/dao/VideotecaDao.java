@@ -6,6 +6,8 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
+
+
 import com.advancia.stage.model.Attore;
 import com.advancia.stage.model.Film;
 import com.advancia.stage.model.Regista;
@@ -59,6 +61,41 @@ public class VideotecaDao {
 		listaAttori = query.getResultList();
 		return listaAttori;
 	}
-	
 
+	public static List<Film> getAllFilm() {
+		injectEntityManager();
+		List<Film> listaFilm = new ArrayList();
+		TypedQuery<Film> query = entityManager.createQuery("select f from Film f", Film.class);
+		listaFilm = query.getResultList();
+		return listaFilm;
+	}
+
+	public static List<Regista> getAllRegisti() {
+		injectEntityManager();
+		List<Regista> listaRegisti = new ArrayList();
+		TypedQuery<Regista> query = entityManager.createQuery("select r from Regista r", Regista.class);
+		listaRegisti = query.getResultList();
+		return listaRegisti;
+	}
+	
+	public Film insertFilm(Film film) {
+		injectEntityManager();
+		entityManager.getTransaction().begin();
+	
+		entityManager.merge(film);
+		entityManager.persist(film);
+		entityManager.getTransaction().commit();
+		return film;
+	}
+	
+	public Regista insertRegista(Regista regista) {
+		injectEntityManager();
+		entityManager.getTransaction().begin();
+	
+		entityManager.merge(regista);
+		entityManager.persist(regista);
+		entityManager.getTransaction().commit();
+		return regista;
+	}
+	
 }

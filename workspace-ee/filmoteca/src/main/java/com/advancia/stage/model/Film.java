@@ -26,13 +26,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Film implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	private Integer id;
+	
 	@Column(name = "nome")
 	private String nome;
+	
 	@Column(name = "datadiuscita")
 	private Date datadiuscita;
 
@@ -97,5 +98,10 @@ public class Film implements Serializable {
 	public void setRegista(Regista regista) {
 		this.regista = regista;
 	}
+
+
+	
+	
+	
 
 }
