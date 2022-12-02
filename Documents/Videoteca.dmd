@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Videoteca" id="1610D521-0D9D-4277-0DE4-D4A140B4C518" version="3.5">
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:02:01 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1610D521-0D9D-4277-0DE4-D4A140B4C518</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2036D8A4-EC0F-FB75-FB4A-71EBDB2777AD">
+<designStoragePath>C:\Users\rober\Documents</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="72AF7934-EC3F-EE31-29D0-FC3AB9A10925">
+<designStoragePath>C:\Users\rober\Documents\dboracle</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

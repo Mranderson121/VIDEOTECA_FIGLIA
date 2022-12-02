@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5451B0F9-341C-9A6E-2420-73EB8ACAFF59" schemaObject="94B57591-C3F2-3F82-CA27-C83193FB1713" name="ATTORE">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ATTORE</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>E1A1E019-B748-80FD-F51B-6F21449D48E5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="333FA71D-FD28-B579-7A4C-1EA56F9EFE0C">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>9D3210EC-DFE1-A034-87A4-3F39D255DFAA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="80B7C8BB-914B-50BB-7F09-D7F307EBA54E">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>9D12B793-FC67-1BFA-F033-7F5EA02181B5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COGNOME" id="453602AA-1EDC-43AF-E5F2-23843B89ECC4">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>COGNOME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>50262D38-88CF-43B7-59E4-8A3B23D1CF8A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATADINASCITA" id="3175DB7F-5D72-37FD-D156-2A3EE9662DA6">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>ATTORE</sourceObjSchema>
+<sourceObjName>DATADINASCITA</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>19CD7A2B-32BB-FA0F-E1DF-135F548C8468</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2102B04E-EEC3-2416-9A26-583C5F730146" name="ATTORE_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ATTORE_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>F530C216-D6D9-688C-1FAB-00623DE6ACF5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="333FA71D-FD28-B579-7A4C-1EA56F9EFE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9013693D-02CC-F77A-425D-2A0A16A6DCB7" schemaObject="94B57591-C3F2-3F82-CA27-C83193FB1713" name="ATTORE_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>ATTORE_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>C01E742B-40AE-5FCE-4390-BA08DFCB09AF</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="333FA71D-FD28-B579-7A4C-1EA56F9EFE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

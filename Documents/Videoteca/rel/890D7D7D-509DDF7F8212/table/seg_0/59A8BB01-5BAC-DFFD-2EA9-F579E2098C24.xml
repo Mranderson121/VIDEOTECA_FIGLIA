@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59A8BB01-5BAC-DFFD-2EA9-F579E2098C24" schemaObject="94B57591-C3F2-3F82-CA27-C83193FB1713" name="REGISTA">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>REGISTA</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>B5D29662-8E31-06AC-9797-FD6597FEB10E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="05B361C7-929B-85ED-B1E6-9FA647B4E51D">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>REGISTA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>C3183DDF-EEDA-1E07-E66D-9485690F42C5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="15006AF1-A129-1A14-FE93-18C58C3B312A">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>REGISTA</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>DC7D23C9-DC32-A185-9E13-8B66B8895C6E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COGNOME" id="1D3E4D21-3ABE-C95B-0998-49D31258706F">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>REGISTA</sourceObjSchema>
+<sourceObjName>COGNOME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>A8D32FEF-B316-FA26-7A78-9D2CFC698F55</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATADINASCITA" id="8F88303D-135F-8366-23F7-FCDC6E910AD3">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>REGISTA</sourceObjSchema>
+<sourceObjName>DATADINASCITA</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>CB5A1962-180D-68FD-A9C1-F8AAD835564D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46E05CD3-788E-4969-ECE1-C04C221D8891" name="REGISTA_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>REGISTA_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>185FCE51-22EB-D2B0-2283-1D8A35D91D5D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05B361C7-929B-85ED-B1E6-9FA647B4E51D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62BFA674-6CB6-265E-A372-6FA57B29E40D" schemaObject="94B57591-C3F2-3F82-CA27-C83193FB1713" name="REGISTA_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>REGISTA_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>C258A380-C028-0039-3EA2-182034C63AE3</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05B361C7-929B-85ED-B1E6-9FA647B4E51D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

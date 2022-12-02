@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D695E39C-0EA7-5C77-7F3E-74EA408260A2" schemaObject="94B57591-C3F2-3F82-CA27-C83193FB1713" name="FILM">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>FILM</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>3F08E05A-7AD1-5255-7C57-DAACF2FB6EFD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="54AABDE0-6FA6-72A9-D08A-E121C1419712">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>FILM</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>5521CA6B-DB20-D8FB-3389-F7D2B594BB40</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REGISTA" id="22A3D01A-6157-CF50-78F4-1715F13B77C4">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>FILM</sourceObjSchema>
+<sourceObjName>ID_REGISTA</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>BAAF53DA-FADF-E783-5E72-DA0A923A10EB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="62D2BA85-9112-39E4-5F60-C8782AE777EE">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>FILM</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>D96231D2-3704-435C-56C7-9FBD289D5CE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATADIUSCITA" id="E1F26285-B935-9AF9-C2F4-32CE70471726">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>FILM</sourceObjSchema>
+<sourceObjName>DATADIUSCITA</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>630E5115-21C5-03E6-2431-D2F695D12661</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAFE391E-69F7-10AA-743A-A1ABBFA7B983" name="FILM_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>FILM_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>BBA13536-E329-CD1C-B61A-69968A71CFD3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54AABDE0-6FA6-72A9-D08A-E121C1419712"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6917E235-9A29-51EA-752A-836931A005FC" schemaObject="94B57591-C3F2-3F82-CA27-C83193FB1713" name="FILM_PK">
+<sourceConnName>HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>FILM_PK</sourceObjName>
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>E2851581-D61C-F37C-FF85-50CF211C7224</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54AABDE0-6FA6-72A9-D08A-E121C1419712"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<impliedForeignKeys itemClass="oracle.dbtools.crest.model.design.relational.ImpliedForeignKey">
+<impliedForeignKey name="ImpliedForeignKey_1v2" id="AF95D802-44BF-6CFC-7B8F-B3429E9DACAD">
+<createdBy>rober</createdBy>
+<createdTime>2022-11-28 08:03:49 UTC</createdTime>
+<ownerDesignName>Videoteca</ownerDesignName>
+<importedID>3C4DDF32-44AF-B845-FB5A-E59D3BC7C249</importedID>
+<localColumn>54AABDE0-6FA6-72A9-D08A-E121C1419712</localColumn>
+<referredTableID>59A8BB01-5BAC-DFFD-2EA9-F579E2098C24</referredTableID>
+<referredColumnID>05B361C7-929B-85ED-B1E6-9FA647B4E51D</referredColumnID>
+<referredTableLongName>HR.REGISTA</referredTableLongName>
+<referredColumnName>ID</referredColumnName>
+</impliedForeignKey>
+</impliedForeignKeys>
+</Table>
