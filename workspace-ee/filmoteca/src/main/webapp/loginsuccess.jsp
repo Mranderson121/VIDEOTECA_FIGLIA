@@ -34,8 +34,8 @@
 			
 		</div>
 
-		<input type="text" name="nome" id="Nome"> <input type="submit"
-			name="submit" value="SUBMIT" style='background-color: red;'>
+		<input type="submit" name="submit" 
+		value="SUBMIT" style='background-color: red;'>
 
 
 	</form>
@@ -43,10 +43,9 @@
 	<h1>Lista film</h1>
 	<table border="1">
 		<%
-		List<Film> listaFilm = utenteLoggato.getListaFilm();
-		for (Film film : listaFilm) {
-			StringBuilder etichetta = new StringBuilder();
-			film.getListaRegisti().forEach(regista -> etichetta.append(regista.getNome()).append("; "));
+			for (Film film : listaFilm) {
+				StringBuilder etichetta = new StringBuilder();
+				etichetta.append(film.getRegista().getNome()).append("; ");
 		%>
 		<tr>
 			<td><%=film.getNome()%></td>
@@ -55,7 +54,7 @@
 		</tr>
 		<%
 		}
-		%>
-	</table>
+		%> 
+	</table>  
 </body>
 </html>

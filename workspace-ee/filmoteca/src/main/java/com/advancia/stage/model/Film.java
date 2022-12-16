@@ -30,10 +30,10 @@ public class Film implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	private Integer id;
-	
+
 	@Column(name = "nome")
 	private String nome;
-	
+
 	@Column(name = "datadiuscita")
 	private Date datadiuscita;
 
@@ -47,7 +47,7 @@ public class Film implements Serializable {
 	private Regista regista;
 
 	@ManyToMany(fetch = FetchType.LAZY)
-	@JoinTable(name = "film_utente", joinColumns = { @JoinColumn(name = "id_film") }, inverseJoinColumns = {
+	@JoinTable(name = "utente_film", joinColumns = { @JoinColumn(name = "id_film") }, inverseJoinColumns = {
 			@JoinColumn(name = "id_utente") })
 	private List<Utente> listaUtenti;
 
@@ -98,18 +98,5 @@ public class Film implements Serializable {
 	public void setRegista(Regista regista) {
 		this.regista = regista;
 	}
-	
-	public List<Regista> getListaRegisti() {
-		return listaRegisti;
-	}
-
-	public void setListaRegisti(List<Regista> listaRegisti) {
-		this.listaRegisti = listaRegisti;
-	}
-
-
-	
-	
-	
 
 }
